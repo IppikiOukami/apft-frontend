@@ -1,7 +1,14 @@
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import MainLandingPage from "../landingPage/MainLandingPage";
+
 export default function RouteMain(){
     return(
       <div className='mainTag'>
-          here goes routing
+          <BrowserRouter>
+              <Routes>
+                  <Route exact path="/" component={<MainLandingPage/>}/>
+              </Routes>
+          </BrowserRouter>
       </div>
     );
 }

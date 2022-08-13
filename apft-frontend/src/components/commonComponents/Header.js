@@ -3,9 +3,9 @@ import {ReactComponent as ArmyIcon} from '../../assets/Logo_of_the_United_States
 
 const Header = () => {
     return (
-        <div>
+        <div className='Header'>
             <ArmyIcon className='ArmyIcon'/>
-            <div className='Header'>
+            <div className='Header-guts'>
                 <h1>APFT Tracker</h1>
                 <p>
                     Rank: fName lName

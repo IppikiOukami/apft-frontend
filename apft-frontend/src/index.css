@@ -16,35 +16,43 @@ code {
   padding-bottom: 5%;
 }
 
-.Header{
-  display: flex;
-  justify-content: space-between;
-  max-height: 50px;
-  width: 90%;
-  margin-left: 5.5%;
-}
-
 .ArmyIcon{
-  position: absolute;
   top: 0;
   left: 0;
-  height: 5%;
-  width: 5%;
+  height: 55px;
+  width: 70px;
+}
+
+.Header{
+  display: flex;
+  justify-content: left;
+}
+
+.Header-guts{
+  left: 60px;
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  width: 95%;
+  margin-left: 7%;
 }
 
 .Header h1{
   font-size: 24px;
+  ;
 }
 
 .Header p{
   margin-top: 3%;
 }
 
+.USBIcon{
+  width: 50%;
+  height: 50%;
+}
+
 .Footer{
   position: absolute;
-  display: flex;
-  justify-content: space-between;
-  border: black solid 2px;
   max-height: 5%;
   width: 100%;
   top: 95%;
